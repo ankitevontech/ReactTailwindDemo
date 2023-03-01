@@ -9,6 +9,7 @@ import Dashboard from "./Components/Dashboard/Dashboard";
 import TableData from "./Components/TableData";
 import Modal from "./Components/Modal";
 import Crud from "./Pages/Crud";
+import Cms from "./Pages/Cms";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           {/* <Route exact path="/tabledata" element={<TableData/>}></Route> */}
           {/* <Route exact path="/modal" element={<Modal/>}></Route> */}
           <Route exact path="/crud" element={<Crud/>}></Route>
+          <Route exact path="/cms" element={<Cms/>}></Route>
          
         </Routes>
       </BrowserRouter>
